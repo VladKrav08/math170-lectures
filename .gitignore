@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# MATH 170 — lecture notebooks, student-facing repository
+#
+# This repo holds ONLY the stripped student notebooks. Instructor copies with
+# answers live in ../sandbox/ and must never be committed here.
+# ---------------------------------------------------------------------------
+
+# Never commit: answers
+sandbox/
+solution/
+solutions/
+*_instructor.ipynb
+generate_student_version.py
+
+# Never commit: anything identifying students (FERPA)
+roster*.csv
+*grades*.csv
+*attendance*
+
+# Students' own working copies
+work/
+my_*.ipynb
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
